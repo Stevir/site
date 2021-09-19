@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<title>Магазин спортивной экипировки</title>
+<link rel="stylesheet" href="stylesheet.css" type="text/css" />
+</head>
+<body>
+<div id="content">
+<header id="header">
+  <h1><span class="green bigl">М</span>агазин<span class="green bigl">"С</span>портЭ"</h1>
+  <span class="slogan">Здесь вы можете купить спортивную экипировку</span> 
+</header> 
+<!-- HTML-элемент <nav> определяет отдельную секцию документа, назначение которой обозначение ссылок навигации-->
+<nav id="menu">
+    <ul>
+      <li><a href="index.html"><span>Главная</span></a></li>
+      <li><a href="index1.html"><span>Экипировка</span></a></li>
+      <li><a href="index3.html"><span>О нас</span></a></li>
+    </ul>
+</nav>
+<section id="modules">
+  <h2>Ваш заказ:</h2>
+  <!-- Таблица подходит для отображения списка товаров-->
+  <table border="1" width="100%">
+    <tr> 
+    <td> <p> Товар </p> </td>
+    <td> <p> Размер </p> </td>
+    <td> <p> Кол-во </p> </td>
+    <tr>
+  <tbody>  
+       <tr><td><p>1</p></td>
+       <td><p>M</p></td>
+       <td><p>2</p></td>
+       </tr></tbody>
+  </table>
+  <!-- Формы, которые обеспечивают работу с корзиной-->
+  <form id="note-form" method="post" name="note-form" action="">
+      <button type="submit">Удалить все из корзины</button>
+  </form></br></br>
+  <form id="note-form" method="post" name="note-form" action="">
+      Адрес по которому доставить - <input class="formtext" type="text" name="name" style="margin-bottom: 15px;" required />
+      <button type="submit">Заказать</button>
+  </form>
+</section>
+  </br></br>
+ <footer id="footer">
+    <p>Магазин "СпортЭ" </p>
+  </footer>
+</div>
+</body>
+</html>
